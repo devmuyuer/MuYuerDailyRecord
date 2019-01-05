@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#616161</color>
+
+    <color name="windowBackground">#212121</color>
+    <color name="app_color">#ffffff</color>
+    <color name="font_color">#ffffff</color>
+
+    <color name="back_color">#353841</color>
+
+    <color name="btn_font_color">#CFCFCF</color>
+    <color name="btn_stroke">#CFCFCF</color>
+    <color name="btn_stroke_solid">#353841</color>
+    <color name="btn_stroke_active">#ffffff</color>
+
+    <color name="nav_active_color">#CFCFCF</color>
+    <color name="nav_default_font_color">#616161</color>
+    <color name="nav_default_color">#616161</color>
+    <color name="nav_background_color">#212121</color>
+</resources>

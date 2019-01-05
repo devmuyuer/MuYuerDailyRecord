@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center"
+    android:id="@+id/ll_group"
+    android:background="@drawable/background_calendar_sel"
+    android:orientation="vertical"
+    skin:enable="true">
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/font_color"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/txtsy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/md_red_400"
+        android:layout_marginTop="2dp"
+        android:textSize="8sp"
+        />
+    <TextView
+        android:id="@+id/txtzc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/md_green_400"
+        android:layout_marginTop="1dp"
+        android:textSize="8sp"
+        />
+
+
+</LinearLayout>

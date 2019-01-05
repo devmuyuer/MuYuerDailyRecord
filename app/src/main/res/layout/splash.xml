@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/back_color">
+
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		
+		<LinearLayout
+		    android:id="@+id/content"
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+
+		        <TextView
+		            android:id="@+id/txtsmail"
+		            style="@style/app_txt_shadow_style"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/app_say_smail"
+		            android:textSize="@dimen/font_size_30" />
+
+		        <TextView
+		            android:id="@+id/txtHi"
+		            style="@style/app_txt_style"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="50dp"
+		            android:text="@string/app_say_hi"
+		            android:textSize="16sp" />
+
+		        <TextView
+		            android:id="@+id/txtDate"
+		            style="@style/app_txt_style"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="10dp"
+		            android:text="2016年12月15日 "
+		            android:textSize="12sp" />
+
+		        <TextView
+		            android:id="@+id/txtHint"
+		            style="@style/app_txt_style"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="10dp"
+		            android:text="@string/app_say_hello"
+		            android:textSize="12sp" />
+		    </LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="15dp"
+		    android:gravity="bottom|center"
+		    android:orientation="vertical" >
+
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" >
+
+				<ImageView
+				    android:id="@+id/imageView1"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginRight="10dp"
+				    android:src="@drawable/icon" />
+
+				<LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="match_parent"
+				    android:orientation="vertical" >
+				    
+				    <TextView
+				        android:id="@+id/txtTitle"
+				        style="@style/app_txt_shadow_style"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginTop="10dp"
+				        android:text="@string/app_subject_word"
+				        android:textSize="12sp" />
+				
+				    <TextView
+				        android:id="@+id/txtVersion"
+				        style="@style/app_txt_style"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginTop="10dp"
+				        android:text="V1.00"
+				        android:textSize="12sp" />
+				</LinearLayout>
+
+			</LinearLayout>
+			
+		</LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/windowBackground"
+    skin:enable="true">
+
+    <ImageView
+        android:id="@+id/imSelPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+      
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_out"
+            android:layout_width="0dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_buttom_active"
+            android:text="@string/bill_add_out"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font_size_normal" />
+
+        <Button
+            android:id="@+id/btn_in"
+            android:layout_width="0dp"
+            android:layout_height="31dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/btn_out"
+            android:layout_weight="1"
+            android:background="@drawable/shape_buttom"
+            android:text="@string/bill_add_in"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font_size_normal"/>
+    </LinearLayout>
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/changedshow_jpg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/type_big_1" />
+
+        <TextView
+            android:id="@+id/changedshow_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/bill_add_show_text"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font_size_24" />
+
+        <TextView
+            android:id="@+id/changedshow_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font_size_24" />
+    </LinearLayout>
+ 
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" >
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnWidth="30dp"
+            android:horizontalSpacing="10dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:verticalSpacing="10dp" >
+        </GridView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3" >
+
+            <Button
+                android:id="@+id/btn_cash"
+			    android:layout_width="60dp"
+                android:layout_height="30dp"
+			    android:text="@string/bill_add_cash"
+			    android:background="@drawable/shape_buttom"
+			    android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/font_color"
+                android:textSize="@dimen/font_size_normal"/>
+
+            <Button
+                android:id="@+id/btn_date"
+			    android:layout_width="100dp"
+                android:layout_height="30dp"
+			    android:text="2016-12月-日"
+			    android:background="@drawable/shape_buttom"
+            	android:layout_toRightOf="@+id/btn_cash"
+			    android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/font_color"
+                android:textSize="@dimen/font_size_normal"/>
+
+            <Button
+                android:id="@+id/btn_content"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="@string/bill_add_content"
+                android:background="@drawable/shape_buttom"
+                android:layout_toLeftOf="@+id/imgCut"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/font_color"
+                android:textSize="@dimen/font_size_normal"/>
+
+            <yao.muyuer.library.other.CircleImageView
+                android:id="@+id/imgCut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/camera"
+                app:civ_border_color="#ffffff"
+                app:civ_border_width="1dp" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/number_keyboard"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

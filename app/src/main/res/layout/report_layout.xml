@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_color"
+    skin:enable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="本月从1日开始，已支出1023元"
+            style="@style/app_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHint1"
+            android:textSize="@dimen/font_size_14"/>
+
+        <TextView
+            android:text="日均44.48元"
+            style="@style/app_nav_bottom_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHint2"
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:id="@+id/column_chart"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/pie_chart"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/line_chart"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"/>-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="本月从1日开始，已收入1023元"
+            style="@style/app_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHint3"
+            android:textSize="@dimen/font_size_14"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:id="@+id/column_chart2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/pie_chart"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/line_chart"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"/>-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rl_hint"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="记账第9天，原你经济独立，有事做有人爱"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:id="@+id/tvHint" />
+    </LinearLayout>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_height="@dimen/button_strand_height"
+            android:layout_width="match_parent"
+            android:id="@+id/rl_all"
+            android:layout_marginTop="@dimen/strand_margin_top"
+            android:layout_marginLeft="@dimen/strand_margin_frame"
+            android:layout_marginRight="@dimen/strand_margin_frame"
+            android:background="@drawable/big_gray_btn">
+
+            <ImageView android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/statistics_pie"
+                android:id="@+id/iv_all"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_all"
+                android:text=">"
+                android:textSize="@dimen/button_strand_font_size"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/font_color"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:id="@+id/txt_all"
+                android:text="全部收支汇总"
+                style="@style/app_txt_style"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/iv_all"
+                android:layout_centerVertical="true" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="@dimen/button_strand_height"
+            android:layout_width="match_parent"
+            android:id="@+id/rl_detail"
+            android:layout_below="@+id/rl_all"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/big_gray_btn">
+
+            <ImageView android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ratings"
+                android:id="@+id/iv_detail"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true" />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_detail"
+                android:text=">"
+                android:textSize="@dimen/button_strand_font_size"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/font_color"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="收入及财务状况"
+                style="@style/app_txt_style"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/iv_detail"
+                android:layout_centerVertical="true" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="@dimen/button_strand_height"
+            android:layout_width="match_parent"
+            android:id="@+id/rl_history"
+            android:layout_below="@+id/rl_detail"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/big_gray_btn">
+
+            <ImageView android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/statistics"
+                android:id="@+id/iv_history"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true" />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_history"
+                android:text=">"
+                android:textSize="@dimen/button_strand_font_size"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/font_color"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="历史支出状况"
+                style="@style/app_txt_style"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/iv_history"
+                android:layout_centerVertical="true"/>
+            "
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</com.zhy.android.percent.support.PercentRelativeLayout>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/windowBackground"
+    skin:enable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="16dp">
+
+        <yao.muyuer.library.other.CircleImageView
+            android:id="@+id/iv_Img"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/people"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#ffffff"/>
+
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_Img"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="木鱼儿"
+                android:textColor="#353535"
+                android:textSize="16sp"
+                skin:enable="true"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        skin:enable="true">
+
+        <yao.muyuer.library.other.WaveProgressView
+            android:id="@+id/ns_bar"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/xian"
+            android:background="@drawable/circle"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="本月从1日开始，已支出1023元"
+            style="@style/app_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHint1"
+            android:textSize="@dimen/font_size_16"
+            skin:enable="true"/>
+
+        <TextView
+            android:text="日均44.48元"
+            style="@style/app_nav_bottom_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHint2"
+            android:textSize="@dimen/font_size_14"
+            skin:enable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rl_hint"
+        android:orientation="vertical"
+        skin:enable="true">
+
+        <TextView
+            android:text="记账第9天，原你经济独立，有事做有人爱"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:id="@+id/tvHint"
+            skin:enable="true"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_height="@dimen/button_strand_height"
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_account"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginLeft="@dimen/strand_margin_frame"
+                    android:layout_marginRight="@dimen/strand_margin_frame"
+                    android:background="@drawable/big_gray_btn">
+
+                    <ImageView android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/layers"
+                        android:id="@+id/iv_account"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_account"
+                        android:text=">"
+                        android:textSize="@dimen/button_strand_font_size"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/font_color"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:id="@+id/txt_account"
+                        android:text="账户管理"
+                        style="@style/app_txt_style"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/iv_account"
+                        android:layout_centerVertical="true" />
+                    "
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="@dimen/button_strand_height"
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_skin"
+                    android:layout_below="@+id/rl_account"
+                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginLeft="@dimen/strand_margin_frame"
+                    android:layout_marginRight="@dimen/strand_margin_frame"
+                    android:background="@drawable/big_gray_btn">
+
+                    <ImageView android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/iconfont_skin"
+                        android:id="@+id/iv_skin"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_skin"
+                        android:text=">"
+                        android:textSize="@dimen/button_strand_font_size"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/font_color"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:id="@+id/txt_skin"
+                        android:text="主题换肤"
+                        style="@style/app_txt_style"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/iv_skin"
+                        android:layout_centerVertical="true" />
+                    "
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="@dimen/button_strand_height"
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_font"
+                    android:layout_below="@+id/rl_skin"
+                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginLeft="@dimen/strand_margin_frame"
+                    android:layout_marginRight="@dimen/strand_margin_frame"
+                    android:background="@drawable/big_gray_btn">
+
+                    <ImageView android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/envelope"
+                        android:id="@+id/iv_font"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_font"
+                        android:text=">"
+                        android:textSize="@dimen/button_strand_font_size"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/font_color"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:id="@+id/txt_font"
+                        android:text="设置字体"
+                        style="@style/app_txt_style"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/iv_font"
+                        android:layout_centerVertical="true" />
+                    "
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="@dimen/button_strand_height"
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_email"
+                    android:layout_below="@+id/rl_font"
+                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginLeft="@dimen/strand_margin_frame"
+                    android:layout_marginRight="@dimen/strand_margin_frame"
+                    android:background="@drawable/big_gray_btn">
+
+                    <ImageView android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/envelope"
+                        android:id="@+id/iv_email"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_email"
+                        android:text=">"
+                        android:textSize="@dimen/button_strand_font_size"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/font_color"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:id="@+id/txt_email"
+                        android:text="意见反馈"
+                        style="@style/app_txt_style"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/iv_email"
+                        android:layout_centerVertical="true" />
+                    "
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="@dimen/button_strand_height"
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_setting"
+                    android:layout_below="@+id/rl_email"
+                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginLeft="@dimen/strand_margin_frame"
+                    android:layout_marginRight="@dimen/strand_margin_frame"
+                    android:background="@drawable/big_gray_btn">
+
+                    <ImageView android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/settings"
+                        android:id="@+id/iv_setting"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_setting"
+                        android:text=">"
+                        android:textSize="18dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/font_color"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:text="设置"
+                        style="@style/app_txt_style"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/iv_setting"
+                        android:layout_centerVertical="true" />
+                    "
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_height="@dimen/button_strand_height"
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_about"
+                    android:layout_below="@+id/rl_setting"
+                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginLeft="@dimen/strand_margin_frame"
+                    android:layout_marginRight="@dimen/strand_margin_frame"
+                    android:background="@drawable/big_gray_btn">
+
+                    <ImageView android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/info"
+                        android:id="@+id/iv_about"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_about"
+                        android:text=">"
+                        android:textSize="18dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/font_color"/>
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:text="关于我们"
+                        style="@style/app_txt_style"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/iv_about"
+                        android:layout_centerVertical="true"/>
+                    "
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

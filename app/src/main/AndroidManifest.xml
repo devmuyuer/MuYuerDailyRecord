@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yao.muyuer.dailyrecord">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="yao.muyuer.dailyrecord.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activity.IndexActivity" />
+        <activity android:name=".activity.ReportAllActivity" />
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.AddBillActivity" />
+        <activity android:name=".activity.AddContentActivity" />
+        <activity android:name=".activity.BillDataActivity" />
+        <activity android:name=".activity.CalendarActivity" />
+        <activity android:name=".activity.ChangeSkinActivity" />
+
+        <activity  android:name=".activity.BookDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.Setting2Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name="yao.muyuer.library.activity.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="yao.muyuer.library.activity.ViewPicActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

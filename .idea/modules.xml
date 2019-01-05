@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MuYuerDailyRecord.iml" filepath="$PROJECT_DIR$/MuYuerDailyRecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skin_black/skin_black.iml" filepath="$PROJECT_DIR$/skin_black/skin_black.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skin_brown/skin_brown.iml" filepath="$PROJECT_DIR$/skin_brown/skin_brown.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back_color"
+    skin:enable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_top_height"
+        android:id="@+id/head_layout">
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/btn_back"
+            android:background="@drawable/back"
+            android:layout_marginLeft="@dimen/strand_margin_frame"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:gravity="center"
+            android:text="全部收支汇总"
+            style="@style/app_txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTitle"
+            android:textSize="@dimen/font_size_20"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_5"
+        android:layout_marginLeft="@dimen/strand_margin_frame"
+        android:layout_marginRight="@dimen/strand_margin_frame"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="本月从1日开始，已支出1023元"
+            style="@style/app_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/font_size_16"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/strand_margin_top"
+        android:layout_marginLeft="@dimen/strand_margin_frame"
+        android:layout_marginRight="@dimen/strand_margin_frame"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="总支出"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="总收入"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="结余"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/strand_margin_frame"
+        android:layout_marginRight="@dimen/strand_margin_frame"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtZc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="1023.00元"
+            style="@style/app_txt_style"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/txtSy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="8860.00元"
+            style="@style/app_txt_style"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/txtJy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="7837.00元"
+            style="@style/app_txt_style"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/strand_margin_top"
+        android:layout_marginLeft="@dimen/strand_margin_frame"
+        android:layout_marginRight="@dimen/strand_margin_frame"
+        android:orientation="vertical">
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/strand_margin_top"
+        android:layout_marginLeft="@dimen/strand_margin_frame"
+        android:layout_marginRight="@dimen/strand_margin_frame"
+        android:id="@+id/rl_hint"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHint"
+            android:text="理财建议"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_16"/>
+        <TextView
+            android:id="@+id/txtJyl"
+            android:text="你的结余率为88%"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="right"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_7"
+            android:layout_marginBottom="@dimen/size_7"
+            android:max="100"
+            android:progress="88"
+            android:id="@+id/pb" />
+
+        <TextView
+            android:id="@+id/txtJyl2"
+            android:text="建议保持结余率为80%以上"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtJylState"
+            android:text="健康"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/md_green_500"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_14"/>
+        <TextView
+            android:id="@+id/txtJylStateHint"
+            android:text="结余率为健康，当前财务状况良好，继续保持哦^v^"
+            style="@style/app_txt_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="left"/>
+    </LinearLayout>
+
+
+</LinearLayout>

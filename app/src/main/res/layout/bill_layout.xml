@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    skin:enable="true">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/add"
+        app:layout_anchor="@+id/main_content"
+        app:layout_anchorGravity="right|bottom"
+        app:layout_behavior="ren.solid.materialdesigndemo.view.ScrollAwareFABBehavior" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlmain"
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+
+            <ImageView
+                android:id="@+id/account_mgr"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/strand_margin_frame"
+                android:background="@drawable/accountbook" />
+
+            <View
+                android:id="@+id/xian"
+                android:layout_width="1dp"
+                android:layout_height="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/buttom_line" />
+            <!--NumberCircleProgressBar-->
+            <yao.muyuer.library.other.WaveProgressView
+                android:id="@+id/ns_bar"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_below="@+id/xian"
+                android:background="@drawable/circle"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/bill_right_show_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12月支出
+233.80"
+                android:textColor="@color/font_color"
+                android:textSize="14sp"
+                android:layout_marginLeft="12dp"
+                android:layout_alignBaseline="@+id/bill_left_show_text"
+                android:layout_alignBottom="@+id/bill_left_show_text"
+                android:layout_toRightOf="@+id/ns_bar"
+                android:layout_toEndOf="@+id/ns_bar"
+                android:layout_marginStart="12dp" />
+
+            <Button
+                android:id="@+id/btn_bill_date"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/account_mgr"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/calendar" />
+
+            <TextView
+                android:id="@+id/bill_left_show_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="12月收入
+8000.00"
+                android:textColor="@color/font_color"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ns_bar"
+                android:layout_toStartOf="@+id/ns_bar"
+                android:layout_marginEnd="10dp" />
+        </RelativeLayout>
+
+
+        <ListView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/billlistview"
+            android:divider="@null"/>
+    </LinearLayout>
+</FrameLayout>

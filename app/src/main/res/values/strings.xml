@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">天天记</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="navigation_item_home">首页</string>
+    <string name="navigation_item_report">报表</string>
+    <string name="navigation_item_datail">明细</string>
+    <string name="navigation_item_set">设置</string>
+    <string name="navigation_item_other">其它</string>
+    <string name="navigation_item_skin">主题换肤</string>
+    <string name="navigation_item_font">设置字体</string>
+    <string name="navigation_item_about">关于</string>
+
+    <string name="bill_add_out">支出</string>
+    <string name="bill_add_in">收入</string>
+    <string name="bill_add_cash">现金</string>
+    <string name="bill_add_content">备注</string>
+    <string name="bill_add_show_text">一般</string>
+
+    <string name="app_subject_word">天天记账，天天清账</string>
+    <string name="app_say_smail">($ _ $)</string>
+    <string name="app_say_hi">Hi</string>
+    <string name="app_say_hello">天天记账第一次与你相遇！</string>
+    <string name="app_say_open">你开启了口袋记账旅程！</string>
+
+    <string name="app_update_location_url">/sdcard/dailyrecord/apk/dailyrecord.apk</string>
+
+    <string name="sys_waring_quit_app">再按一次将退出系统</string>
+    <string name="sys_network_error">网络异常，请检查网络设置</string>
+    <string name="sys_error">程序发生异常</string>
+    <string name="sdcardUnavailable">存储卡不可用，请加载存储卡重新下载</string>
+    <string name="urlUnavailable">更新路径设置错误，欢迎反馈给作者</string>
+    <string name="notification_done">离线下载完成</string>
+    <string name="notification_doing">正在离线下载内容...</string>
+
+    <string name="pre_refresh_data" translatable="false">refresh_data</string>
+    <string name="pre_get_image" translatable="false">get_image</string>
+    <string name="pre_cache_size" translatable="false">cache_size</string>
+    <string name="pre_feedback" translatable="false">feedback</string>
+    <string name="pre_author" translatable="false">author</string>
+    <string name="pre_version" translatable="false">version</string>
+    <string name="pre_nav_color" translatable="false">pre_nav_color</string>
+    <string name="pre_use_local" translatable="false">pre_use_local</string>
+    <string name="pre_status_bar" translatable="false">pre_status_bar</string>
+
+
+
+    <string name="about_msg">这是一款日常记账小软件，开发测试机为meate 9，Android版本5.1。
+    \n\n 作者:MuYuer
+    \n\n 主页:http://www.615000.net
+    \n\n 邮箱:182443847@qq.com
+    \n\n 电话:13510724777</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string><string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="4dip" />
+            <!--边框的宽度及颜色-->
+            <stroke android:width="2px" android:color="@color/md_green_400" />
+            <item android:top="8dp" android:left="8dp" android:right="8dp" />
+        </shape>
+    </item>
+    <item android:drawable="@android:color/transparent"/>
+</selector>

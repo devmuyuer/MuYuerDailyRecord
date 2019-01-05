@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    skin:enable="true">
+
+    <RelativeLayout
+        android:id="@+id/rep_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/nav_background_color"
+        skin:enable="true">
+     <View android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/xian_rep"
+        android:background="@color/nav_default_color"
+        android:layout_alignParentTop="true"
+        skin:enable="true"/>
+        <TextView
+            android:id="@+id/text_rep"
+            style="@style/app_nav_bottom_style"            
+            android:text="@string/navigation_item_report"
+            skin:enable="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bill_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/nav_background_color"
+        skin:enable="true">
+	<View android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/xian_bill"
+        android:background="@color/nav_default_color"
+        android:layout_alignParentTop="true"
+        skin:enable="true"/>
+        <TextView
+            android:id="@+id/text_bill"
+            style="@style/app_nav_bottom_style"        
+            android:text="@string/navigation_item_datail"
+            skin:enable="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/setting_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/nav_background_color"
+        skin:enable="true">
+	<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:id="@+id/xian_setting"
+	        android:background="@color/nav_default_color"
+	        android:layout_alignParentTop="true"
+        skin:enable="true"/>
+        <TextView
+            android:id="@+id/text_setting"
+            style="@style/app_nav_bottom_style"        
+            android:text="@string/navigation_item_set"
+            skin:enable="true"/>
+    </RelativeLayout>
+</LinearLayout>

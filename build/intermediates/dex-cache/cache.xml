@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.jcodecraeer\xrecyclerview\1.2.7\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0724e4d93c85866c8953b74776fa320efa122205">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.jcodecraeer-xrecyclerview-1.2.7_d05676ea511ef44bec4edd04e98bf028a671d037.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_60b9a2332e91d9a8afac0006ed412f2c590e1740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\DevTools\java\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_00ffd44a0017684c57bafd4c76cecf0c82d894dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_32632e3d72584b80ad3338bc1d1e212cf713ded2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\okio-1.6.0_c410569bd3ae660f2a7eceb3af69efc833b46b70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_6c83587de4e3c2b83abb1d045fa7d2e930f996e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_brown\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_brown\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_0ba0bae389ba87b98019bb2788b440f477df2a28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_ba9edac3e7261e6f6ca8035e14ea137809501502.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_800781ea3325cfefbb18f08227170bab96ee8214.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_68ec218106456cb183a5dd971abc5717602194af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_dce80f38722cb760d138c60670876ebdab945aad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_97e5c37342f8a7d3228ad3e791cb4dd8454149b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.1_e0f173b57ef015bf389e7ec90cf1c69c08efc919.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_d64bbf35bac15f250c817f48db29a0c3ea2fb9a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_brown\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_brown\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_f6ae96be2a45af80581fffd80ad0fd280660f73e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.zhy\percent-support-extends\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29ff8e178d6ef33c8673f430651500068642f833">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.zhy-percent-support-extends-1.1.1_98d4b47d1f5ae16fa795fa4e42d88ac8ec73ab96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_black\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_4ff3758cb3894a1152066b8176f86316dc2510ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.8.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5640136cf422060a7077e2c02d9a231d7c76f959">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.afollestad.material-dialogs-core-0.8.6.1_af89971ab93645f2a33dc581ba27eadc49c63e70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_brown\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\skin_brown\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_891dda91099c78083ba594f3cf04a3fe45946cac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_0c82ee4333b8549d44abedcf107413ed9237ca51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab3193b438e37f7b0a634cc2dfebbf92892ea90c">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.1.6_8a2221dd21be4f36ea56861e976c05a673841b7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_a31224e6a4530331c8228eb1cbc11e2609a238b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\DevTools\java\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_8173203d4c56c678fadf10d703c26dc11d70cbaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\libs\datechoosewheel.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5f2cff8bfce6bd848ee3dceb06393502f78ca7c">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\datechoosewheel_2a194f52dd760a26189fe771e89704df855573a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.zhy\okhttputils\2.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa6f74194806099bd3ea8e9ce3d9be4aa7d67e1c">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.zhy-okhttputils-2.4.1_6d4cfc6c276de21ec2fe5e24bd9bf175fe6b6bdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.2.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e39dd45427d2ba136c82ed1946f80dd3dff16695">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.github.chrisbanes-PhotoView-1.2.6_e0107ad298801663f5f833152506c4b847238cef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\libs\hellocharts-library-1.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="700944cb3a8ce4fe543cfac1a9146a11cbf702dc">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\hellocharts-library-1.5.8_1ea08bfb4c43fd51c5572bfa03b11d37c96a0825.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\MuYuerDailyRecord\library\2.0.0-beta6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c7157340c5ec89460a14e06c203ad0394e10f78">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\MuYuerDailyRecord-library-2.0.0-beta6_c3ff24fcbe91c7fa478292e333615bbedc765c3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_8535107babd01262013f72d1578b3951ded4eae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\gson-2.2.4_752a4694a6e7953de1b9e1ac68ee96a302f761f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_c7730a3f8e0b80219fbdfff5ba708f1277730842.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_e97c4d684058659f4c78fd063d89ce0d8b400297.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\exploded-aar\com.mani\ThinDownloadManager\1.2.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83ce05d9bee3aa384135330fa6a4fdab65d0e35">
+        <dex dex="G:\AndroidStudioProjects\MuYuerDailyRecord\app\build\intermediates\pre-dexed\debug\com.mani-ThinDownloadManager-1.2.5_7d601493e416aa20533d556a68d9cd03d037d4b4.jar" />
+    </item>
+
+</items>
