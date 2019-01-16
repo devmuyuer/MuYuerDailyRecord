@@ -176,9 +176,10 @@ public class AddBillActivity extends BaseActivity implements OnClickListener {
 		customDatePicker1 = new CustomDatePicker(this, new CustomDatePicker.ResultHandler() {
 			@Override
 			public void handle(String time) { // 回调接口，获得选中的时间
+//				SimpleDateFormat sdf2 = new SimpleDateFormat(Config.DATA_FORMAT, Locale.CHINA);
+//				String now = sdf2.format(addtime);
+				btn_date.setText(time.split(" ")[0]);
 				addtime = time;
-				SimpleDateFormat sdf2 = new SimpleDateFormat(Config.DATA_FORMAT2);
-				btn_date.setText(sdf2.format(addtime));
 			}
 		}, "2010-01-01 00:00", now); // 初始化日期格式请用：yyyy-MM-dd HH:mm，否则不能正常运行
 		customDatePicker1.showSpecificTime(true); // 不显示时和分
@@ -320,7 +321,7 @@ public class AddBillActivity extends BaseActivity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 			case R.id.btn_cash:
-				intent = new Intent(AddBillActivity.this, DialogActivity.class);
+				intent = new Intent(AddBillActivity.this, SelAccountDialogActivity.class);
 				this.startActivityForResult(intent, REQ_CASH_CODE);
 				break;
 			case R.id.btn_date:

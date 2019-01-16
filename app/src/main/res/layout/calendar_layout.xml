@@ -160,13 +160,14 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:gravity="center">
 
             <ImageView
                 android:id="@+id/ivadd"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/add" />
+                android:background="@drawable/add2" />
         </LinearLayout>
 
         <TextView
@@ -176,7 +177,7 @@
             android:gravity="center"
             android:text="2016年10月10日无记账记录"
             android:textColor="@color/font_color"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             />
 
         <TextView
@@ -184,6 +185,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginTop="10dp"
             android:text="点击添加一笔"
             android:textColor="@color/md_green_400"
             />

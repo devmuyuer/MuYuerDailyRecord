@@ -58,7 +58,7 @@ public class SettingActivity extends BaseFragment implements OnClickListener {
 	TextView tv_name, tvHint, txtHint1, txtHint2;
 	CircleImageView iv_avatar;
 	EditText et;
-	private WaveProgressView bnp;
+	//private WaveProgressView bnp;
 
 	@Override
 	protected int setLayoutResourceID() {
@@ -76,7 +76,7 @@ public class SettingActivity extends BaseFragment implements OnClickListener {
 
 		iv_avatar = $(R.id.iv_Img);
 		tv_name = $(R.id.tv_name);
-		bnp = $(R.id.ns_bar);
+		//bnp = $(R.id.ns_bar);
 
 		iv_avatar.setOnClickListener(this);
 		tv_name.setOnClickListener(this);
@@ -103,7 +103,7 @@ public class SettingActivity extends BaseFragment implements OnClickListener {
 		int day = now.get(Calendar.DAY_OF_MONTH);
 		txtHint2.setText("日均" + String.format("%.2f",zc/day) + "元");
 
-		bnp.setCurrent(20, 20 + "%");
+		//bnp.setCurrent(20, 20 + "%");
 
 		SystemEntity ent = new SystemEntity();
 		try {

@@ -14,8 +14,8 @@
     <color name="back_color">#fafafa</color>
 
     <color name="btn_font_color">#353841</color>
-    <color name="btn_stroke">#909090</color>
-    <color name="btn_stroke_solid">#CFCFCF</color>
+    <color name="btn_stroke">#c1c1c1</color>
+    <color name="btn_stroke_solid">#e1e1e1</color>
     <color name="btn_stroke_active">#353841</color>
 
     <color name="nav_active_color">#353841</color>

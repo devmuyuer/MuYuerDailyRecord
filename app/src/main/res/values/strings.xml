@@ -23,7 +23,7 @@
     <string name="app_say_smail">($ _ $)</string>
     <string name="app_say_hi">Hi</string>
     <string name="app_say_hello">天天记账第一次与你相遇！</string>
-    <string name="app_say_open">你开启了口袋记账旅程！</string>
+    <string name="app_say_open">你开启了天天记账旅程！</string>
 
     <string name="app_update_location_url">/sdcard/dailyrecord/apk/dailyrecord.apk</string>
 
@@ -51,7 +51,7 @@
     \n\n 作者:MuYuer
     \n\n 主页:http://www.615000.net
     \n\n 邮箱:182443847@qq.com
-    \n\n 电话:13510724777</string>
+    \n\n 电话:13540724777</string>
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->

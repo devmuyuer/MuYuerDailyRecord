@@ -21,6 +21,7 @@
     <dimen name="strand_margin_frame_back">12sp</dimen>
     <dimen name="strand_margin_frame">20sp</dimen>
     <dimen name="strand_margin_top">20sp</dimen>
+    <dimen name="button_margin_top">10sp</dimen>
     <dimen name="bill_data_bottom_height">150sp</dimen>
     <dimen name="button_strand_height">40sp</dimen>
 

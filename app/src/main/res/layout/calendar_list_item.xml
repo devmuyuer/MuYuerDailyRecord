@@ -38,13 +38,16 @@
             android:id="@+id/txtAmountTile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="R网购"
-            android:textColor="@color/font_color"
-            android:textSize="16sp"
+            android:layout_centerVertical="true"
             android:layout_alignBaseline="@+id/txtMoney"
             android:layout_alignBottom="@+id/txtMoney"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/size_5"
+            android:layout_toEndOf="@+id/imgbill"
             android:layout_toRightOf="@+id/imgbill"
-            android:layout_toEndOf="@+id/imgbill" />
+            android:text="R网购"
+            android:textColor="@color/font_color"
+            android:textSize="16sp" />
 
     </RelativeLayout>
 </LinearLayout>

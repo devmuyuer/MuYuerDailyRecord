@@ -6,6 +6,6 @@
     <!-- android:radius 弧形的半径 -->
     <corners android:radius="30dip" />
     <!--边框的宽度及颜色-->
-    <stroke android:width="2px" android:color="@color/btn_stroke_active" />
+    <stroke android:width="3px" android:color="@color/btn_stroke_active" />
 
 </shape>

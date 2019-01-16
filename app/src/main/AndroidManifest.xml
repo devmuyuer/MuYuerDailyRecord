@@ -36,7 +36,7 @@
         <activity android:name=".activity.BillDataActivity" />
         <activity android:name=".activity.CalendarActivity" />
         <activity android:name=".activity.ChangeSkinActivity" />
-
+        <activity android:name=".activity.SelAccountDialogActivity" />
         <activity  android:name=".activity.BookDetailActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".activity.Setting2Activity"

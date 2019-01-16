@@ -17,7 +17,7 @@
             android:layout_height="24dp"
             android:id="@+id/btn_back"
             android:background="@drawable/back"
-            android:layout_marginLeft="@dimen/strand_margin_frame"
+            android:layout_marginLeft="@dimen/strand_margin_frame_back"
             android:layout_centerVertical="true"/>
 
         <TextView

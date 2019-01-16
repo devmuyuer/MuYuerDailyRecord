@@ -49,19 +49,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:orientation="vertical"
         skin:enable="true">
-
-        <yao.muyuer.library.other.WaveProgressView
-            android:id="@+id/ns_bar"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_below="@+id/xian"
-            android:background="@drawable/circle"
-            android:layout_centerHorizontal="true" />
 
         <TextView
             android:text="本月从1日开始，已支出1023元"
@@ -159,14 +150,14 @@
                     android:layout_width="match_parent"
                     android:id="@+id/rl_skin"
                     android:layout_below="@+id/rl_account"
-                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginTop="@dimen/button_margin_top"
                     android:layout_marginLeft="@dimen/strand_margin_frame"
                     android:layout_marginRight="@dimen/strand_margin_frame"
                     android:background="@drawable/big_gray_btn">
 
                     <ImageView android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:background="@drawable/iconfont_skin"
+                        android:background="@drawable/skin"
                         android:id="@+id/iv_skin"
                         android:layout_marginLeft="10dp"
                         android:layout_centerVertical="true"/>
@@ -198,14 +189,14 @@
                     android:layout_width="match_parent"
                     android:id="@+id/rl_font"
                     android:layout_below="@+id/rl_skin"
-                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginTop="@dimen/button_margin_top"
                     android:layout_marginLeft="@dimen/strand_margin_frame"
                     android:layout_marginRight="@dimen/strand_margin_frame"
                     android:background="@drawable/big_gray_btn">
 
                     <ImageView android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:background="@drawable/envelope"
+                        android:background="@drawable/font"
                         android:id="@+id/iv_font"
                         android:layout_marginLeft="10dp"
                         android:layout_centerVertical="true"/>
@@ -237,14 +228,14 @@
                     android:layout_width="match_parent"
                     android:id="@+id/rl_email"
                     android:layout_below="@+id/rl_font"
-                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginTop="@dimen/button_margin_top"
                     android:layout_marginLeft="@dimen/strand_margin_frame"
                     android:layout_marginRight="@dimen/strand_margin_frame"
                     android:background="@drawable/big_gray_btn">
 
                     <ImageView android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:background="@drawable/envelope"
+                        android:background="@drawable/message_waiting"
                         android:id="@+id/iv_email"
                         android:layout_marginLeft="10dp"
                         android:layout_centerVertical="true"/>
@@ -276,7 +267,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/rl_setting"
                     android:layout_below="@+id/rl_email"
-                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginTop="@dimen/button_margin_top"
                     android:layout_marginLeft="@dimen/strand_margin_frame"
                     android:layout_marginRight="@dimen/strand_margin_frame"
                     android:background="@drawable/big_gray_btn">
@@ -314,7 +305,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/rl_about"
                     android:layout_below="@+id/rl_setting"
-                    android:layout_marginTop="@dimen/strand_margin_top"
+                    android:layout_marginTop="@dimen/button_margin_top"
                     android:layout_marginLeft="@dimen/strand_margin_frame"
                     android:layout_marginRight="@dimen/strand_margin_frame"
                     android:background="@drawable/big_gray_btn">
